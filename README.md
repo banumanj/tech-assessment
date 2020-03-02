@@ -45,6 +45,8 @@ Local reports
 Standard Report
 A report will be generated at target/cucumber-reports/CucumberTestReport.json
 https://github.com/banumanj/tech-assessment/blob/master/Test%20Results.JPG
+
+
 Pretty Cucumber-Html Report
 A report will be generated at target/cucumber-reports/cucumber-pretty/index.html
 
