@@ -7,4 +7,4 @@ Feature:
     Then the response code returned should be 200
     And verify the count of pets
       |status|name |TotalPets|
-      |available|doggie|10  |
+      |available|doggie|9  |

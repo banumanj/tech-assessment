@@ -45,7 +45,7 @@ formatter.step({
       "cells": [
         "available",
         "doggie",
-        "2"
+        "12"
       ],
       "line": 10
     }
@@ -56,7 +56,7 @@ formatter.match({
   "location": "GetPetStoreSteps.the_Pet_store_is_up_and_running_for_PetStore()"
 });
 formatter.result({
-  "duration": 1780371700,
+  "duration": 2043471400,
   "status": "passed"
 });
 formatter.match({
@@ -69,7 +69,7 @@ formatter.match({
   "location": "GetPetStoreSteps.a_user_perform_a_get_request_to_find_pets(String)"
 });
 formatter.result({
-  "duration": 2275657000,
+  "duration": 3047050300,
   "status": "passed"
 });
 formatter.match({
@@ -82,14 +82,14 @@ formatter.match({
   "location": "GetPetStoreSteps.the_response_code_should_be(int)"
 });
 formatter.result({
-  "duration": 5439900,
+  "duration": 8377600,
   "status": "passed"
 });
 formatter.match({
   "location": "GetPetStoreSteps.find_the_count_of_pets_by(DataTable)"
 });
 formatter.result({
-  "duration": 2122068300,
+  "duration": 2611173100,
   "status": "passed"
 });
 formatter.uri("GetpetStoreWiremock.feature");
@@ -139,7 +139,7 @@ formatter.step({
       "cells": [
         "available",
         "doggie",
-        "10"
+        "9"
       ],
       "line": 10
     }
@@ -150,7 +150,7 @@ formatter.match({
   "location": "GetPetStoreWiremockSteps.the_Pet_store_API()"
 });
 formatter.result({
-  "duration": 85500,
+  "duration": 71100,
   "status": "passed"
 });
 formatter.match({
@@ -163,7 +163,7 @@ formatter.match({
   "location": "GetPetStoreWiremockSteps.a_user_perform_a_request_get_all_the_pets_by(String)"
 });
 formatter.result({
-  "duration": 573471800,
+  "duration": 358241400,
   "status": "passed"
 });
 formatter.match({
@@ -176,14 +176,14 @@ formatter.match({
   "location": "GetPetStoreWiremockSteps.the_response_code_returned_should_be(int)"
 });
 formatter.result({
-  "duration": 117900,
+  "duration": 133600,
   "status": "passed"
 });
 formatter.match({
   "location": "GetPetStoreWiremockSteps.verify_the_count_of_pets(DataTable)"
 });
 formatter.result({
-  "duration": 41597300,
+  "duration": 47096400,
   "status": "passed"
 });
 });
