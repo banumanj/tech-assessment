@@ -7,7 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import utilities.Api.BaseTest;
 

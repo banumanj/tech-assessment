@@ -14,7 +14,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = {"steps."},
+        glue = {"stepDefinition"},
         tags = {"~@Ignore"},
         format = {
                 "pretty",
@@ -26,6 +26,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.urlEqualTo;
 public class TestRunner {
     private TestNGCucumberRunner testNGCucumberRunner;
     public WireMockServer wireMockServer;
+
     @BeforeClass(alwaysRun = true)
     public void setUpClass() throws Exception {
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
