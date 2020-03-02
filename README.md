@@ -1,4 +1,13 @@
-# tech-assessment
+# Tech-assessment
+Task  – PetStore API Testing
+
+1.getPetsByStatus(PetStatus peStatus).
+and uses the following REST endpoint:
+https://petstore.swagger.io/#/pet/findPetsByStatus
+
+2.getPetsByStatus(PetStatus peStatus).
+and uses the following REST endpoint:
+Stub wiremock response 
 
 Get the latest Source Code
 Open Terminal or command line cd to the desired folder where the test automation source code needs to be checkout
