@@ -32,12 +32,12 @@ File>Import Project>
 Compile Build or Run Tests
 Command Line
 
-cd to root ot automationFramework project directory
+cd to root ot tech-assessment project directory
 
 To clean and compile the build
 mvn clean install -DskipTests
 
-To run all tests 
+To run the tests :Run the following maven command from command line
 mvn clean test
 
 Report
@@ -47,4 +47,5 @@ A report will be generated at target/cucumber-reports/CucumberTestReport.json
 
 Pretty Cucumber-Html Report
 A report will be generated at target/cucumber-reports/cucumber-pretty/index.html
+
 
