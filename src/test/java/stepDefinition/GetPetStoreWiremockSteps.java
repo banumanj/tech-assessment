@@ -53,9 +53,11 @@ public class GetPetStoreWiremockSteps {
         for (Pet pet : pets) {
             try {
                 if (!(pet.getName().equals(null)) && (pet.getName().equals(name))) {
-                    assertions.assertEquals(pet.getName(), name);
-                    assertions.assertEquals(pet.getStatus(), status);
-                    count++;
+                    if(pet.getStatus().equals(status)) {
+                        assertions.assertEquals(pet.getName(), name);
+                        assertions.assertEquals(pet.getStatus(), status);
+                        count++;
+                    }
                 }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
