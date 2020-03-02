@@ -1,0 +1,3 @@
+stepDefinition\GetPetStoreSteps.class
+stepDefinition\GetPetStoreWiremockSteps.class
+runner\TestRunner.class

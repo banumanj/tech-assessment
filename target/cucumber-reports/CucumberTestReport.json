@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the pets by status",
+        "description": "",
+        "id": ";verify-the-pets-by-status",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1780371700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The Pet store is up and running for PetStore",
+            "match": {
+              "location": "GetPetStoreSteps.the_Pet_store_is_up_and_running_for_PetStore()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2275657000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user perform a get request to find pets \"pet/findByStatus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pet/findByStatus",
+                  "offset": 43
+                }
+              ],
+              "location": "GetPetStoreSteps.a_user_perform_a_get_request_to_find_pets(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5439900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the response code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GetPetStoreSteps.the_response_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2122068300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "find the count of pets by",
+            "match": {
+              "location": "GetPetStoreSteps.find_the_count_of_pets_by(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "status",
+                  "name",
+                  "TotalPets"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "available",
+                  "doggie",
+                  "2"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Verify PetStore API",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "GetpetStore.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the pets by status using wiremock",
+        "description": "",
+        "id": ";verify-the-pets-by-status-using-wiremock",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The Pet store API",
+            "match": {
+              "location": "GetPetStoreWiremockSteps.the_Pet_store_API()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 573471800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user perform a request get all the pets by \"pet/findByStatus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pet/findByStatus",
+                  "offset": 46
+                }
+              ],
+              "location": "GetPetStoreWiremockSteps.a_user_perform_a_request_get_all_the_pets_by(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the response code returned should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "GetPetStoreWiremockSteps.the_response_code_returned_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41597300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the count of pets",
+            "match": {
+              "location": "GetPetStoreWiremockSteps.verify_the_count_of_pets(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "status",
+                  "name",
+                  "TotalPets"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "available",
+                  "doggie",
+                  "10"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Verify PetStore API with Wiremock",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "GetpetStoreWiremock.feature"
+  }
+]
